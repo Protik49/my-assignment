@@ -477,7 +477,7 @@
     margin-left: 23px;
 }
 
-.table-content .fa-solid{
+.table-content /*.fa-solid*/{
     background: rgb(198, 228, 214);
     margin-left: 14px;
 }
