@@ -42,13 +42,14 @@
     padding-left: 30px;
     padding-top: 100px;
     width: auto;
-    height: 460px;
+    height: 360px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
     background-color: #C6E4D6;
     border-radius: 16px;
+    background-position-y: 100px;
 /*
     background-image: url(./assets/hero.png);
     background-repeat: no-repeat;
@@ -80,12 +81,11 @@
     background-color: #006A50;
     width: auto;
     border: none;
-    font-weight: 600;
     color: white;
     padding: 17px 34px;
     border-radius: 5px;
-
-
+    font-size: 18px;
+    font-weight: 600;
 
 }
 
@@ -536,11 +536,13 @@
 .news-detail button{
     margin-bottom: 0;
     border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
 .donate{
-    margin: 31px 160px;
+    margin: 80px 160px;
     text-align: center;
 }
 
@@ -613,4 +615,66 @@
     margin-top: 32px;
     font-size: 18px;
     font-weight: 600;
+}
+
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 160px;
+    padding: 0 265px;
+    text-align: center;
+    width: auto;
+    height: 395px;
+    background-color:rgb(198, 228, 214) ;
+    border-radius: 16px;
+    font-family: Fira Sans;
+}
+
+.newsletter h1{
+    background-color: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.newsletter p{
+    background-color: rgb(198, 228, 214);
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.subscribe{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.subscribe input{
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+    padding-left: 40px;
+    border: none;
+    width: 600px;
+    height: 55px;
+}
+
+
+.subscribe button{
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+
 }
