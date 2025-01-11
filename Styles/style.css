@@ -678,3 +678,42 @@
     padding: 17px 34px;
 
 }
+
+footer{
+    background-color: white;
+    text-align: center;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+footer h3{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: white;
+}
+
+footer hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    height: 0;
+    width: 80%;
+
+
+}
+
+.social-icons{
+    display: flex;
+    gap: 23px;
+    background-color: white;
+}
+
+.social-icons img{
+    background-color: white;
+}
+
